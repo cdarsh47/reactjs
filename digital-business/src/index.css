@@ -1,0 +1,90 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.email-info{
+  height: 50px;
+    background: #fff;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #000;
+    margin-right: 10px;
+}
+.linked-info{
+height: 50px;
+    background: #0a66c2;
+    padding: 5px 20px;
+    border-radius: 5px;
+    margin: 0;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    margin-right: 10px;
+}
+.profile-information h3{
+  margin:0;
+}
+.profile-information img{
+  max-width:100%;
+}
+.profile-information .post{
+  margin: 0;
+  font-size: 15px;
+  font-style: italic;
+}
+.profile-parent{
+  background-color: #000;
+  width:18%;
+  padding:0 20px;
+  border-radius:10px;
+  margin-top:5px;
+}
+.weblink{
+  font-size:11px;
+  margin-top:3px; 
+  margin-bottom:15px;
+}
+.about-section h5,.interests-section h5{
+  text-align: left;
+  font-size:20px;
+  margin-bottom:0;
+}
+.about-section p,.interests-section p{
+  text-align: left;
+  font-size:15px;
+  margin-top:5px;
+}
+.contact-links{
+  padding-top:10px;
+}
+.footer-section ul{
+  list-style-type: none;
+  padding:0;
+}
+.footer-section li{
+  display: inline-block;
+  padding: 5px 9px;
+  border-radius: 5px;
+  width:50px;
+}
+.footer-section li img{
+  max-width:100%;
+}
+.footer-section li a{
+  text-decoration: none;
+  color:#fff;
+}
