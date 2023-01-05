@@ -1,0 +1,95 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+h1{
+  text-align: center;
+  margin: 0;
+  background: red;
+  padding: 10px;
+  color: #fff;
+}
+.submit-btn{
+  height: 30px;
+    background: red;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+form{
+  border-bottom: 1px solid red;
+    padding: 10px 0;
+}
+.input-title input{
+  margin-bottom:5px;
+  height: 30px;
+}
+.input-description input{
+  margin-bottom:5px;
+  height: 30px;
+}
+.todos-list{
+  width:10%;
+  float: left;
+  margin:10px;
+}
+.todos-content{
+  border:2px solid #000;
+  border-radius: 5px;
+}
+.todos-content .title{
+  margin: 0;
+    background: red;
+    color: #fff;
+    padding:5px 0;
+}
+.todo-description{
+  min-height: 100px;
+  font-weight: bold;
+}
+.todos-list button{
+  background: red;
+  color: #fff;
+  height: 30px;
+  margin-top: 5px;
+  padding: 0 10px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
